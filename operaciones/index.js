@@ -20,7 +20,11 @@ return resultat;
  * @returns {Number} el resultat de la operacio
  */
 function multiplica(...valors) {
-
+    let resultat = 1;
+    for(let valor of valors){
+        resultat *= valor;
+    }
+   return resultat;
 }
 
 module.exports.suma = suma;
