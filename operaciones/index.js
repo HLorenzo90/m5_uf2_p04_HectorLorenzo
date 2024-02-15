@@ -9,6 +9,7 @@ function suma(...valors) {
     for (let valor of valors) {
         resultat += valor;
     }
+    
     return resultat;
 }
 
