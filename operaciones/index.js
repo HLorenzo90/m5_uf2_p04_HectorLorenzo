@@ -9,6 +9,7 @@ let resultat = 0;
 for(let valor of valors){
     resultat += valor;
 }
+
 return resultat;
 }
 
@@ -24,6 +25,7 @@ function multiplica(...valors) {
     for(let valor of valors){
         resultat *= valor;
     }
+
    return resultat;
 }
 
